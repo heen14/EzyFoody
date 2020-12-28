@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFA79A"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDrink"
+        android:layout_width="161dp"
+        android:layout_height="148dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/btndrink"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnSnack"
+        android:layout_width="161dp"
+        android:layout_height="148dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/btnsnacks"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnTopup"
+        android:layout_width="161dp"
+        android:layout_height="148dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/btntopup"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnFood"
+        android:layout_width="161dp"
+        android:layout_height="148dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/btnfood"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="10dp"
+        android:text="My Order" />
+
+    <TextView
+        android:id="@+id/balDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="130dp"
+        android:text=""
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="100dp"
+        android:text="My Balance: "
+        android:textSize="18sp" />
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="187dp"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/logo2" />
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="190dp"
+        android:text="Pay" />
+
+
+</RelativeLayout>

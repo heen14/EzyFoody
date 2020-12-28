@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#976B50"
+    tools:context=".Foods">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BFA79A"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="290dp"
+            android:text="Back" />
+        <Button
+            android:id="@+id/btnChicken"
+            android:layout_width="161dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="299dp"
+            android:text="Chicken\nRp.20000" />
+
+        <Button
+
+            android:id="@+id/btnBeef"
+            android:layout_width="161dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="499dp"
+            android:text="Beef\nRp.40000" />
+
+        <Button
+            android:id="@+id/btnFish"
+            android:layout_width="161dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="299dp"
+            android:text="Fish\nRp.17000" />
+
+        <Button
+            android:id="@+id/btnLamb"
+            android:layout_width="161dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="499dp"
+            android:text="Lamb\nRp.35000" />
+
+
+        <Button
+            android:id="@+id/btnOrder2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="600dp"
+            android:text="Order" />
+
+        <TextView
+            android:id="@+id/cFish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="170dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/cChicken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="170dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/cLamb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="370dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/cBeef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="370dp"
+            android:text="" />
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="122dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="395dp"
+
+            app:srcCompat="@drawable/eclipse" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="114dp"
+            android:layout_height="109dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="400dp"
+            app:srcCompat="@drawable/beef" />
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="122dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="190dp"
+            app:srcCompat="@drawable/eclipse" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="105dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="226dp"
+            android:layout_marginTop="175dp"
+            app:srcCompat="@drawable/chicken" />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="122dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="190dp"
+            app:srcCompat="@drawable/eclipse" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="121dp"
+            android:layout_height="141dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="185dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/fish" />
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="122dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="222dp"
+            android:layout_marginTop="395dp"
+            app:srcCompat="@drawable/eclipse" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="112dp"
+            android:layout_height="122dp"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="400dp"
+            app:srcCompat="@drawable/lamb" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="187dp"
+            android:layout_height="148dp"
+            app:srcCompat="@drawable/logo2" />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

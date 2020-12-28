@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#976B50"
+    tools:context=".Drinks">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BFA79A"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="10dp"
+            android:text="My Order" />
+
+        <Button
+            android:id="@+id/btnCoca"
+            android:layout_width="161dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="299dp"
+            android:text="Coca\nRp.9000" />
+
+        <Button
+
+            android:id="@+id/btnSprite"
+            android:layout_width="161dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="499dp"
+            android:text="Sprite\nRp.8000" />
+
+        <Button
+            android:id="@+id/btnJuice"
+            android:layout_width="161dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="299dp"
+            android:text="Juice\nRp.10000" />
+
+        <Button
+            android:id="@+id/btnBeer"
+            android:layout_width="161dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="499dp"
+            android:text="Beer\nRp.20000" />
+
+
+        <Button
+            android:id="@+id/btnOrder2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="600dp"
+            android:text="Order" />
+
+        <TextView
+            android:id="@+id/cJuice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="170dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/cCoca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="170dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/cBeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="370dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/cSprite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="370dp"
+            android:text="" />
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="122dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="395dp"
+
+            app:srcCompat="@drawable/eclipse" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="62dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="420dp"
+            app:srcCompat="@drawable/sprite" />
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="122dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="190dp"
+            app:srcCompat="@drawable/eclipse" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="105dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="175dp"
+            app:srcCompat="@drawable/cola" />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="122dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="190dp"
+            app:srcCompat="@drawable/eclipse" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="93dp"
+            android:layout_height="122dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="185dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/juice" />
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="122dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="222dp"
+            android:layout_marginTop="395dp"
+            app:srcCompat="@drawable/eclipse" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="86dp"
+            android:layout_height="101dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="400dp"
+            app:srcCompat="@drawable/beer" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="187dp"
+            android:layout_height="148dp"
+            app:srcCompat="@drawable/logo2" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="290dp"
+            android:text="Back" />
+
+
+    </RelativeLayout>
+</ScrollView>
